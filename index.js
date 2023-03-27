@@ -42,4 +42,4 @@ app.get('/addattendee', cors(), async (req, res) => {
         res.send(err)
     }
 })
-app.listen(5000, () => console.log(`Video calling server listening at http://localhost:5000`))
+app.listen(5002, () => console.log(`Video calling server listening at http://localhost:5000`))
