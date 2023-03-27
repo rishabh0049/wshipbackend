@@ -27,6 +27,11 @@ app.get('/meeting', cors(), async (req, res) => {
         res.send(err)
     }
 })
+app.get('/', cors(), async (req, res) => {
+    
+    res.send("Home")
+   
+})
 app.get('/addattendee', cors(), async (req, res) => {
     try {
       console.log(meetingResponse.Meeting.MeetingId,)
